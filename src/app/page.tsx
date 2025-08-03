@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800">
@@ -23,7 +21,7 @@ export default function Home() {
             </p>
             <div className="space-y-4 max-w-2xl mx-auto">
               <p className="text-lg text-gray-600 dark:text-gray-400">
-                "Conhecereis a verdade, e a verdade vos libertará."
+                &ldquo;Conhecereis a verdade, e a verdade vos libertará.&rdquo;
               </p>
               <p className="text-gray-500 dark:text-gray-500">
                 João 8:32
